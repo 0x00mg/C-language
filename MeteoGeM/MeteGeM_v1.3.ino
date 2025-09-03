@@ -232,11 +232,11 @@ float readBatteryVoltage() {
 }
 
 // ========== Loop funkcia ==========
-// Hlavný cyklus, ktorý beží stále
+// Hlavný cyklus ktorý beží stále
 void loop() {
   // Volaj MQTT loop, aby sa spracovali správy, udržiaval spojenie atď.
   client.loop();
 
   // Tento kód však ESP po odoslaní dát vypne cez DONE pin (setup),
-  // takže v loop vlastne nič ďalšie nerobíme
+  // takže v loop vlastne nič ďalšie nerobím
 }
