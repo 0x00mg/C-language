@@ -1,1 +1,11 @@
+You are given a program, store in the variable named price the value of 120.
+
+#include <stdio.h>
+
+int main() {
+    int price = 120;
+    printf("price: %d\n",price);
+    return 0;
+}
+
 
