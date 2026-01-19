@@ -14,15 +14,15 @@ double pi = 3.14159265359;
 ```
 The main differences between float and double:
 
-  1.Precision: Double has higher precision than float
-          - Float: ~7 decimal digits
-          - Double: ~15 decimal digits
-  2.Size:
-          - Float: 4 bytes
-          - Double: 8 bytes
-  3.Range:
-          - Float: 1.2E-38 to 3.4E+38
-          - Double: 2.3E-308 to 1.7E+308
+1.Precision: Double has higher precision than float
+  - Float: ~7 decimal digits
+  - Double: ~15 decimal digits
+2.Size:
+  - Float: 4 bytes
+  - Double: 8 bytes
+3.Range:
+  - Float: 1.2E-38 to 3.4E+38
+  - Double: 2.3E-308 to 1.7E+308
 
 Print a float value:
 ```c
