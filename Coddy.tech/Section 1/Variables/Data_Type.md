@@ -21,11 +21,10 @@ Challenge
 Easy
 
 Create a program that:
-
-    Declares a character variable named symbol
-    Assigns the character '@' to this variable
-    Prints the message "The symbol is: @" where @ is the value of your variable
-```c
+1. Declares a character variable named symbol
+2. Assigns the character '@' to this variable
+3. Prints the message "The symbol is: @" where @ is the value of your variable
+```c    
 #include <stdio.h>
 
 int main() {
