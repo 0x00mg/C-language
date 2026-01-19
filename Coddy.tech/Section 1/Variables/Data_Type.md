@@ -3,7 +3,7 @@ Characters
 In C, the char data type is used to store a single character. Characters in C are enclosed in single quotes.
 
 Declare a character variable:
-```c char letter;```
+```char letter;```
 
 Assign a character to the variable:
 ```letter = 'A';```
@@ -25,7 +25,7 @@ Create a program that:
     Declares a character variable named symbol
     Assigns the character '@' to this variable
     Prints the message "The symbol is: @" where @ is the value of your variable
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -37,4 +37,4 @@ int main() {
 
     return 0;
 }
-```c
+```
