@@ -3,15 +3,15 @@ Integer
 In C, integers are whole numbers without any decimal points. They are one of the most common data types you'll work with.
 
 Declaring, initializing, and modifying integers:
-
+```c
 int age; // Declaring
 int score = 100; // Declaring and initializing
 score = 90; // Modifying
-
+```
 Print an integer using printf:
-
+```c
 printf("%d", score);
-
+```
 The int type stores whole numbers.
 
 Challenge
@@ -25,7 +25,7 @@ Create a program that:
 
 Your output should look like this:
 
-The value is: 50
+```The value is: 50```
 
 ```c
 #include <stdio.h>
